@@ -1,6 +1,7 @@
+import random 
 def printCar(cars):
-    for i in cars:
-        print(i)
+    randomCar = random.choice(cars)
+    print(randomCar)
         
 
 carList = ["Ford", "Nissan", "Toyota"]
